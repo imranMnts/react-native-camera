@@ -25,7 +25,8 @@
             <!-- The camera device faces the same direction as the device's screen. -->
             <enum name="front" value="1"/>
         </attr>
-      
+        <!-- Aspect ratio of camera preview and pictures. -->
+        <attr name="aspectRatioValue" format="string"/>
         <!-- Continuous auto focus mode. -->
         <attr name="autoFocus" format="boolean"/>
         <!-- The flash mode. -->
